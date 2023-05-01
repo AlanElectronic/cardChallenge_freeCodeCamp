@@ -1,0 +1,85 @@
+body{
+  background-color: rgba(165, 201, 201, 0.587);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  
+}
+.container{
+
+  margin-top: 10%;
+  width: 500px;
+  height: 100%;
+  border: solid .5px rgba(220, 220, 220, 0.781);
+  box-shadow: 0 0 8px rgba(69, 67, 67, 0.513);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.info{
+  background-color: white;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+.join-title{
+  color: rgba(12, 177, 171, 0.875);
+}
+.days-title{
+  color: rgba(211, 225, 26, 0.886);
+}
+.join-info{
+  color: rgba(128, 128, 128, 0.463);
+}
+.subs{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(8, 175, 172, 0.938);
+  flex-grow: 1;
+  color: snow;
+  margin: 0 -0.52px;  /*este margen y el de abajo↓*/
+  margin-bottom: -0.49px;  /*se puede evitar si directamente con set en box-sizing: content-box; desde html,por ejemplo, para que no se vean los márgenes en cada div dentro de otro*/
+}
+h1{
+  display: inline-block;
+}
+.price{
+  flex-grow: 1;
+  padding: 20px 20px; 
+  width: 50%;
+}
+.price-title{
+  font-size: 1.2rem;
+}
+.btn-sign{
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(40, 37, 37, 0.413); 
+  background-color: rgba(78, 203, 78, 0.922);
+  color: white;
+  font-size: .9rem;
+  cursor: pointer;
+}
+.btn-sign:hover{
+  transform: scale(1.03); /*transforma a escala en esa proporción, al pasar por encima con cursor*/
+}
+.why{
+  width: 50%;
+  flex-grow: 1;
+  background-color: rgba(108, 204, 203, 0.541);
+  padding: 20px 20px;  
+}
+.why-info{
+  font-size: .8rem;
+  line-height: 1.2rem; 
+  margin-right: 10px;
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+}
